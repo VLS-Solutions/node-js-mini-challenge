@@ -12,6 +12,7 @@ app.get("/", (req: Request, res: Response) => {
 });
 
 // Add a new endpoint here
+// get user by id and return user details
 
 app.listen(port, () => {
   console.log(`[server]: Server is running at http://localhost:${port}`);
